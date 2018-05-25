@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.app.etl</groupId>
+  <artifactId>etltool</artifactId>
+  <version>1.0</version>
+  <dependencies>
+	<!-- https://mvnrepository.com/artifact/oracle/ojdbc6 -->
+	<dependency>
+    		<groupId>com.oracle</groupId>
+    		<artifactId>ojdbc6</artifactId>
+    		<version>11.2.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
+	<dependency>
+    		<groupId>com.mchange</groupId>
+    		<artifactId>c3p0</artifactId>
+    		<version>0.9.5.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+	<dependency>
+    		<groupId>org.apache.commons</groupId>
+    		<artifactId>commons-lang3</artifactId>
+    		<version>3.7</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+	<dependency>
+    		<groupId>log4j</groupId>
+    		<artifactId>log4j</artifactId>
+    		<version>1.2.17</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.mchange/mchange-commons-java -->
+	<dependency>
+    		<groupId>com.mchange</groupId>
+    		<artifactId>mchange-commons-java</artifactId>
+    		<version>0.2.11</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
+	<dependency>
+    		<groupId>com.opencsv</groupId>
+    		<artifactId>opencsv</artifactId>
+    		<version>4.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+	<dependency>
+    	<groupId>org.apache.commons</groupId>
+    	<artifactId>commons-lang3</artifactId>
+    	<version>3.0.1</version>
+	</dependency>	
+  </dependencies>
+
+
+</project>
